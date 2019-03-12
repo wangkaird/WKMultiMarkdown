@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WKMultiMarkdown_Example' do
+  pod 'WKMultiMarkdown', :path => '../'
+
+  target 'WKMultiMarkdown_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
