@@ -1,0 +1,16 @@
+PODS:
+  - WKMultiMarkdown (0.1.0)
+
+DEPENDENCIES:
+  - WKMultiMarkdown (from `../`)
+
+EXTERNAL SOURCES:
+  WKMultiMarkdown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKMultiMarkdown: a329e31eedf08fbdc18c473c598cfdfe7a182c15
+
+PODFILE CHECKSUM: bb510d4fa5a0b5aa18f219bcfbca8c227be2ee5d
+
+COCOAPODS: 1.6.1

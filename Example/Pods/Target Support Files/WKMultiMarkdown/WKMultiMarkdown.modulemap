@@ -1,0 +1,6 @@
+framework module WKMultiMarkdown {
+  umbrella header "WKMultiMarkdown-umbrella.h"
+
+  export *
+  module * { export * }
+}
