@@ -7,16 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A6279993F3805C27BE980722FAA856 /* d_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 543402A49F0115027DED4431899ED45B /* d_string.c */; };
+		03C629D2BE2F50122C7667AEED9BB740 /* object_pool.c in Sources */ = {isa = PBXBuildFile; fileRef = 78882F979A2B9A1733AA7A012A67BE9C /* object_pool.c */; };
+		0875D415716200D5785EC8697E60FF6A /* char.c in Sources */ = {isa = PBXBuildFile; fileRef = F0B3E15475BFE8A97A1FBF3C802B3292 /* char.c */; };
+		0B559EF43C35ADDDC33A610BE39179E0 /* mmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A22895F06881FFA6E5505FB5787AF44 /* mmd.c */; };
 		1511D71F8698724E2E1753D571B8E56E /* Pods-WKMultiMarkdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82555C2DC9BE6802A0A93971B6CD1A94 /* Pods-WKMultiMarkdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		160F7870EDCD834F87E110DFAB65A979 /* textbundle.c in Sources */ = {isa = PBXBuildFile; fileRef = 352DF64F1D0A508E8FC8859BACB09102 /* textbundle.c */; };
 		1C5FB38054B8C9EAA9974BD83A5A1F04 /* Pods-WKMultiMarkdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E84503F9D1FC5B5CE8A6EEAF74B262F /* Pods-WKMultiMarkdown_Example-dummy.m */; };
 		1D7AF1AA21280CB28996673585C2B605 /* Pods-WKMultiMarkdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D37FD76B2A359E0544CA84D6206487 /* Pods-WKMultiMarkdown_Tests-dummy.m */; };
+		212005633D4D381DE71E5EC5D25CB8C3 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2026008D1B37F36DFC75C5225D245 /* parser.c */; };
+		23C19F20C00EB015FECC615C4AFCFEFC /* aho-corasick.c in Sources */ = {isa = PBXBuildFile; fileRef = C0CBEF3639A367121FFD416E3E597B52 /* aho-corasick.c */; };
+		248B371DBCDF48CFC1C4C8817CDD3D87 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 283F3EBAC53F71E41ACD586CC4654C05 /* xml.c */; };
+		26D787CBD2E9BA73265CF4B8BD4407C0 /* opendocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CF96F21BA682A4FBE4BB67F9D6C59B /* opendocument.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2954C99E41A32C2530CE18FE9D5699D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		4EDFDDA9F38D0F9BD59185F81139403B /* WKMultiMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64659B12F839A8592AEA24D713DC903B /* WKMultiMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29645FDAEF6B32311C6EF47D62179B78 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D52A12B2DADAF55BC37422AFCF3EDBD /* scanners.c */; };
+		2A51E208433FF1ECF099061098B64335 /* opml-reader.c in Sources */ = {isa = PBXBuildFile; fileRef = AC20CF1F24D1E16AE93824E310D48A8E /* opml-reader.c */; };
+		2C1F301C77099B740494455ADBEF8C1D /* token_pairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 370C0405C420660149D3F7D53C118561 /* token_pairs.c */; };
+		2C69EB08BF34FF9CDCACC2E02F2C838D /* itmz.c in Sources */ = {isa = PBXBuildFile; fileRef = 614DF5D0706D93DB93384B945054E02A /* itmz.c */; };
+		2CC2047C2F04C6D667EA3051840E5716 /* itmz-parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEEDD8BDE918575B65706A6B4C53B83 /* itmz-parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CD874D19CEE8DB94259D55FB9018D44 /* miniz.c in Sources */ = {isa = PBXBuildFile; fileRef = 844BB4385DD00697132E083CBB25E758 /* miniz.c */; };
+		3522ED25E6EE55E16AE0B3F34A3DDA0A /* xml.h in Headers */ = {isa = PBXBuildFile; fileRef = A47A2BD7B54FED454448C1EA97ABA339 /* xml.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35FF08B68908BFB3614108F51417EBD3 /* itmz-parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 93BB963889CC065966E0AA8413433597 /* itmz-parser.c */; };
+		368DDFA214C87274919FB16852DCE154 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = EC99C8A916B1E63E5C9C3A6448E369A9 /* version.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38194DCD626E016310D9C55E032C8A8F /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D518C97251736FE2C6B675EFDD2ACC0 /* html.c */; };
+		385C0F073A5E304009CA4884F767D655 /* d_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C72BA68C0066A9D4ABC7CB972952621 /* d_string.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		397FC35A2E2712931C6B7BA610E65867 /* transclude.c in Sources */ = {isa = PBXBuildFile; fileRef = 6345589EFB2B4ECE74509C134FDD16DE /* transclude.c */; };
+		3A31951C5FA83B569BC62562299E0028 /* WKMultiMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 047424D9BE7017F607F075081D1326F8 /* WKMultiMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E827405CF4736A8D037192C6A6A43BC /* beamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA37EFB650E5B9E0791E719C475DDFC /* beamer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EAA355D143CCC09B56A5B51CB93AACD /* critic_markup.c in Sources */ = {isa = PBXBuildFile; fileRef = 38928C4A026C8A011431ACD7BD6F5884 /* critic_markup.c */; };
+		494C4082F6B3BAAA80ED46790FECB592 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9CD944A89A8CDE7163BE978F9C3BF20E /* zip.c */; };
+		4DD30CB56A9ED9427261CAFAD6992846 /* uthash.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5D2CB63AEDCF7C69C5FC9558F96B4B /* uthash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EC1D315486DAC8AF47096DD2CBA14CB /* file.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4DD1D79625D45B32156C80F877E851 /* file.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		547CB07095BB5950E6E4C916AD6A5A2F /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 5304EC32A693081806420B0E2EDBD7AD /* stack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55BF5DF569ED768B9849C3229CA2B163 /* memoir.c in Sources */ = {isa = PBXBuildFile; fileRef = 33A12FAFEF1BD22A7AE5371C77BF7260 /* memoir.c */; };
+		56D6B1109E6D9E62E009C69D79574682 /* opml.h in Headers */ = {isa = PBXBuildFile; fileRef = 293D7BE85CBA03C03DD8557D4C8FA00E /* opml.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56FA2DC8341A69DD0BFCD9E4C16BBA52 /* char.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2756A73F7F6B3F9766EED209D10528 /* char.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5724651BB6CA6FD6FF26A96EE9650A84 /* i18n.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0402F5269AEE1CF72B0CB245505BB1 /* i18n.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		579FC3FEB434530B638C5191B6475013 /* object_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D808C95A61109266D3E9878A9F85CE /* object_pool.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5C763E29A6A7C0848C94FE7E00CFFA6A /* Pods-WKMultiMarkdown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4F144D3F556B2D006A12E4C6B17FD9 /* Pods-WKMultiMarkdown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		609872536C5B63AAB0DAD2823EB58391 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E975E23F11BE39A04E8095F74AC595D /* writer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		633DCC8110F5CAC2A90BCFF2D1CB8462 /* opml-reader.h in Headers */ = {isa = PBXBuildFile; fileRef = D397B9125634CBC7D67CBE5F3AA17012 /* opml-reader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69F8F7874C5774D50CE70AF0B08BFF6D /* textbundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8E71BB6F7B7DF1ED2247A8D7C77572 /* textbundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7210D1B0AF69AB7BFF474380C6242C48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		CEBCAEE06D4E4596032F5121E89C7C82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB87AC0BDA9CE124D6FA527D7EE595 /* ReplaceMe.swift */; };
+		74D3A07F3E32EF31A7C3F3C7E09183A1 /* opml.c in Sources */ = {isa = PBXBuildFile; fileRef = DC6E49E4C9D0AA81C74C3837374E7093 /* opml.c */; };
+		75C315483A69B69FD072BAA8F6A27F42 /* itmz-lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = EFBE6E3A43E1C94E5E18E04A7F812DC2 /* itmz-lexer.c */; };
+		7A816215956AE7AF974F4DA7625279D2 /* opendocument.c in Sources */ = {isa = PBXBuildFile; fileRef = DFB15A6AB8E75BA9F740580929F62E28 /* opendocument.c */; };
+		83A2BDB5A6BA7EA971A2AF8FB9758203 /* WKMultiMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB212254B0BF750B81BB52E87ED3A2 /* WKMultiMarkdown-dummy.m */; };
+		862822FA115F07FA7F85C4F232A5A595 /* WKMultiMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC38698D319877E5512ED9AEDAB59F2 /* WKMultiMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87535B3BEDFAFC2139DB980EDED79C3F /* beamer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD081E6B41F185DE05A078BE884CBF /* beamer.c */; };
+		89EB382F45A10CEAA9DE676278CFB019 /* itmz.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8E8B4197878CAD8A6C06A7265CA095 /* itmz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B0E085A71F0B28F59E5786A93EB2F06 /* opml-parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 90F00E76B8E13DC8BF8129B156DA53CE /* opml-parser.c */; };
+		8B8D781E49D0268C4153EDADA6B4D4A2 /* transclude.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C783D0D9C67311491017397BF34C59 /* transclude.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BC9A33C54A99EE3BD05509AA85072C7 /* mmd.h in Headers */ = {isa = PBXBuildFile; fileRef = E49E4210CF63BEF5A0A8BB562965CE08 /* mmd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		939F18D571ECDA2DFDE50B1A8381C405 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FEE74C2F0F7379F7944C80826F7DA /* file.c */; };
+		9DB501FE29EA5E2D95B2A7711E244F60 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FFF4A192DBEBA87CBF12907BB5F3E9 /* parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2D61C3FBAAC98F670BFD6ABC0CE8C10 /* opml-lexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5073518B4E731DFB14015B64A1F6036D /* opml-lexer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5763FC25B05678C4C7C03321D8FE0D9 /* uuid.c in Sources */ = {isa = PBXBuildFile; fileRef = B0BEACDF81586351C2AA166E8F6E11B8 /* uuid.c */; };
+		A96A9085E5C553501CA76817EC2F30C5 /* opml-parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D8FCFD63E3335CF71DCD584441687F /* opml-parser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA93EC8971C17A027536A2D9AAA3924E /* aho-corasick.h in Headers */ = {isa = PBXBuildFile; fileRef = A2247BC424D396391F0DCFD667CFDBA2 /* aho-corasick.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB76164C803B1BCD674D8C73204D5B33 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = C6671957D63694C81920DDAB006C0918 /* latex.c */; };
+		B39629B71D4417EC7A8F0E913D7DDCA3 /* itmz-reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 7380F74F02E3ED289DF1EE3203895A23 /* itmz-reader.c */; };
+		B43E195FA038734685F969FABB33513B /* token.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6495DECC15D76FA7BA06F9A83A73F6 /* token.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B643F751AE860F6B0613A1AE0EA3A995 /* token_pairs.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C95AC89D8CCC0F91DE40A769593E3A5 /* token_pairs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8E995334536F0ACB1C57191BF1B69B0 /* epub.c in Sources */ = {isa = PBXBuildFile; fileRef = BF11B9EF08A33E4A99BE81051CFA2E94 /* epub.c */; };
+		BE32829A0FB0FE20C3CB307771162804 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BABEE877D9DCF16799056C4454B3ED8 /* html.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3FBD46AAE66CF213306D186684686B8 /* opendocument-content.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E68A76562C985FB8717C4521ABF39D4 /* opendocument-content.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4F885C680A3138BE00FEA8940021956 /* epub.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBB7E015821F757FD870A65AA975ACC /* epub.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C72DD360AE147C873F4785095B97BCB9 /* itmz-reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFB8B164112BA49AFCF3EF03E8CAE8A /* itmz-reader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C75C5D189A499E87664A3045F607F079 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = AD07A7FAA052ACB7E17FBF64C23B0118 /* scanners.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBE97734714650E23C739739BF19200D /* rng.c in Sources */ = {isa = PBXBuildFile; fileRef = 5847AAA4DDAF8F3A6D23E44450883EF4 /* rng.c */; };
+		D1A1CE12F026DF36F96832E0B02FA242 /* miniz.h in Headers */ = {isa = PBXBuildFile; fileRef = 496D237E1D516D1D62C7E9E35ECE37A6 /* miniz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D43A6871084072B6B4FD8244422002C0 /* lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = F005231EFCFD066E8189833D4B769D41 /* lexer.c */; };
+		DD86D6A4A3ECECEF29A01E32DB3CB2FA /* lexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C0343A53D16F0C820B0E64F5829F5F /* lexer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD8717296B711D767BEA3E78389C63C4 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 276B502A1E7132BE75753805082E25E8 /* stack.c */; };
+		DDE4B442C9AECBC182AC782DBCB53B73 /* memoir.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CCE8392AD35B7EA1588353B139324BA /* memoir.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3AC694AA0BF9FB4BEF015F4D5088BA0 /* uuid.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F7F37B5D80E357120BA98BBB885D70 /* uuid.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4BF3ECDB6D3DD7F856F05D1DBD0A130 /* token.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D35F3C5987051CCCEEEDBDDE9FB8178 /* token.c */; };
 		E74537B5E8BF3A3954ED924271D1C4C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		F1B32A446C80FF190CE8D4122BEB7503 /* WKMultiMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E58C0C10572602BB1B7857902536320 /* WKMultiMarkdown-dummy.m */; };
+		E8A73039C8FADFB1130EDADC27490FB9 /* critic_markup.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E04DA9B391DC15BEA9760D491487637 /* critic_markup.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E91D5AD3A9AE68C370EE3DA66C2861AB /* opendocument-content.c in Sources */ = {isa = PBXBuildFile; fileRef = 87709EBA7304D3B4D4FE676C81732FB1 /* opendocument-content.c */; };
+		EE5248402719DD72A94B14EB8DF97B9F /* itmz-lexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E069BF615C61DD3F9A216AF6370D23 /* itmz-lexer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEE354DEA2702BF9A8FA606FA9721C84 /* latex.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C50864C52255E747D09F5906463618 /* latex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3890CDCCF8B0384735C263B3844C60B /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAC26007FE8A08AC4F73FEEB9F0063 /* writer.c */; };
+		F3BEA2B667CD869702E17C8E07B8862B /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A453F2CD74088CE70F728AD82C10C2 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5A1B1F630D3C30A58EF4AD168F78575 /* opml-lexer.c in Sources */ = {isa = PBXBuildFile; fileRef = 211EA76A31B60C3EE2955A3EC370B6DA /* opml-lexer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,36 +112,110 @@
 
 /* Begin PBXFileReference section */
 		03B63C892E443B21D93C9C91865C46C7 /* Pods-WKMultiMarkdown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKMultiMarkdown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		07398CEFE6CC23243357DE75F9943B91 /* WKMultiMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKMultiMarkdown.xcconfig; sourceTree = "<group>"; };
-		0A31E4699907FC0662E842B8A2754FE1 /* WKMultiMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKMultiMarkdown.modulemap; sourceTree = "<group>"; };
+		047424D9BE7017F607F075081D1326F8 /* WKMultiMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKMultiMarkdown-umbrella.h"; sourceTree = "<group>"; };
+		05FFF4A192DBEBA87CBF12907BB5F3E9 /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		08E069BF615C61DD3F9A216AF6370D23 /* itmz-lexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "itmz-lexer.h"; sourceTree = "<group>"; };
 		0D85197FB1C68B990BE9BD4D7383C52D /* Pods-WKMultiMarkdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKMultiMarkdown_Tests.modulemap"; sourceTree = "<group>"; };
-		0E58C0C10572602BB1B7857902536320 /* WKMultiMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKMultiMarkdown-dummy.m"; sourceTree = "<group>"; };
+		0E04DA9B391DC15BEA9760D491487637 /* critic_markup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = critic_markup.h; sourceTree = "<group>"; };
 		12FD87F0A078C949CCA4B899313E4423 /* Pods-WKMultiMarkdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKMultiMarkdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		141ACD26396BAE29B8E5C11EB6E207BB /* Pods-WKMultiMarkdown_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKMultiMarkdown_Tests-Info.plist"; sourceTree = "<group>"; };
-		2126FE40857B82BFD26FDFBD199F2FEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B2756A73F7F6B3F9766EED209D10528 /* char.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = char.h; sourceTree = "<group>"; };
+		1BAAC26007FE8A08AC4F73FEEB9F0063 /* writer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = writer.c; sourceTree = "<group>"; };
+		1D40BAE3ED2C178243FB560538863785 /* WKMultiMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKMultiMarkdown-prefix.pch"; sourceTree = "<group>"; };
+		1E975E23F11BE39A04E8095F74AC595D /* writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		1EFD081E6B41F185DE05A078BE884CBF /* beamer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = beamer.c; sourceTree = "<group>"; };
+		1F5D2CB63AEDCF7C69C5FC9558F96B4B /* uthash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = uthash.h; sourceTree = "<group>"; };
+		211EA76A31B60C3EE2955A3EC370B6DA /* opml-lexer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "opml-lexer.c"; sourceTree = "<group>"; };
+		25070DF5E4A99948C76B24733E01AE8C /* WKMultiMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKMultiMarkdown.modulemap; sourceTree = "<group>"; };
+		26D808C95A61109266D3E9878A9F85CE /* object_pool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = object_pool.h; sourceTree = "<group>"; };
+		276B502A1E7132BE75753805082E25E8 /* stack.c */ = {isa = PBXFileReference; includeInIndex = 1; path = stack.c; sourceTree = "<group>"; };
+		283F3EBAC53F71E41ACD586CC4654C05 /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; path = xml.c; sourceTree = "<group>"; };
+		293D7BE85CBA03C03DD8557D4C8FA00E /* opml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opml.h; sourceTree = "<group>"; };
+		2A4DD1D79625D45B32156C80F877E851 /* file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		2C72BA68C0066A9D4ABC7CB972952621 /* d_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = d_string.h; sourceTree = "<group>"; };
+		2CC38698D319877E5512ED9AEDAB59F2 /* WKMultiMarkdown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKMultiMarkdown.h; sourceTree = "<group>"; };
+		2CCE8392AD35B7EA1588353B139324BA /* memoir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = memoir.h; sourceTree = "<group>"; };
 		2CDFDB71ADE63FFC3CEEF3620EA2BD65 /* Pods_WKMultiMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKMultiMarkdown_Tests.framework; path = "Pods-WKMultiMarkdown_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EFB87AC0BDA9CE124D6FA527D7EE595 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WKMultiMarkdown/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		3A569AF97176D531E2C5B3B4D2BD5FFE /* WKMultiMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKMultiMarkdown-Info.plist"; sourceTree = "<group>"; };
+		2E68A76562C985FB8717C4521ABF39D4 /* opendocument-content.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "opendocument-content.h"; sourceTree = "<group>"; };
+		33A12FAFEF1BD22A7AE5371C77BF7260 /* memoir.c */ = {isa = PBXFileReference; includeInIndex = 1; path = memoir.c; sourceTree = "<group>"; };
+		352DF64F1D0A508E8FC8859BACB09102 /* textbundle.c */ = {isa = PBXFileReference; includeInIndex = 1; path = textbundle.c; sourceTree = "<group>"; };
+		370C0405C420660149D3F7D53C118561 /* token_pairs.c */ = {isa = PBXFileReference; includeInIndex = 1; path = token_pairs.c; sourceTree = "<group>"; };
+		38928C4A026C8A011431ACD7BD6F5884 /* critic_markup.c */ = {isa = PBXFileReference; includeInIndex = 1; path = critic_markup.c; sourceTree = "<group>"; };
+		38F7F37B5D80E357120BA98BBB885D70 /* uuid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = uuid.h; sourceTree = "<group>"; };
+		3AD0B6D877B03EEDB3183B219A00FCC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3AD2026008D1B37F36DFC75C5225D245 /* parser.c */ = {isa = PBXFileReference; includeInIndex = 1; path = parser.c; sourceTree = "<group>"; };
+		3AEEDD8BDE918575B65706A6B4C53B83 /* itmz-parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "itmz-parser.h"; sourceTree = "<group>"; };
+		3D35F3C5987051CCCEEEDBDDE9FB8178 /* token.c */ = {isa = PBXFileReference; includeInIndex = 1; path = token.c; sourceTree = "<group>"; };
+		433614358A0A5983ED39940278D0D11D /* WKMultiMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKMultiMarkdown.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		464A6B8A52888EE20A35FDB240BB3962 /* Pods-WKMultiMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKMultiMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		47D447D9A597F90C567F0B40A2ED0FCF /* WKMultiMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKMultiMarkdown-prefix.pch"; sourceTree = "<group>"; };
-		507F92461D496215E9387ACF03FC782E /* WKMultiMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKMultiMarkdown.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46C0343A53D16F0C820B0E64F5829F5F /* lexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lexer.h; sourceTree = "<group>"; };
+		496D237E1D516D1D62C7E9E35ECE37A6 /* miniz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = miniz.h; sourceTree = "<group>"; };
+		4C2FEE74C2F0F7379F7944C80826F7DA /* file.c */ = {isa = PBXFileReference; includeInIndex = 1; path = file.c; sourceTree = "<group>"; };
+		4CFB212254B0BF750B81BB52E87ED3A2 /* WKMultiMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKMultiMarkdown-dummy.m"; sourceTree = "<group>"; };
+		4D518C97251736FE2C6B675EFDD2ACC0 /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; path = html.c; sourceTree = "<group>"; };
+		5073518B4E731DFB14015B64A1F6036D /* opml-lexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "opml-lexer.h"; sourceTree = "<group>"; };
 		519EE229E396645F5E838F5858BDC9B7 /* Pods-WKMultiMarkdown_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKMultiMarkdown_Example-frameworks.sh"; sourceTree = "<group>"; };
-		64659B12F839A8592AEA24D713DC903B /* WKMultiMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKMultiMarkdown-umbrella.h"; sourceTree = "<group>"; };
+		5304EC32A693081806420B0E2EDBD7AD /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		53CF96F21BA682A4FBE4BB67F9D6C59B /* opendocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opendocument.h; sourceTree = "<group>"; };
+		543402A49F0115027DED4431899ED45B /* d_string.c */ = {isa = PBXFileReference; includeInIndex = 1; path = d_string.c; sourceTree = "<group>"; };
+		55D8FCFD63E3335CF71DCD584441687F /* opml-parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "opml-parser.h"; sourceTree = "<group>"; };
+		5847AAA4DDAF8F3A6D23E44450883EF4 /* rng.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rng.c; sourceTree = "<group>"; };
+		5EBB7E015821F757FD870A65AA975ACC /* epub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = epub.h; sourceTree = "<group>"; };
+		614DF5D0706D93DB93384B945054E02A /* itmz.c */ = {isa = PBXFileReference; includeInIndex = 1; path = itmz.c; sourceTree = "<group>"; };
+		6345589EFB2B4ECE74509C134FDD16DE /* transclude.c */ = {isa = PBXFileReference; includeInIndex = 1; path = transclude.c; sourceTree = "<group>"; };
 		672A2223F3A6F98D4C2CA9B860A5D761 /* Pods-WKMultiMarkdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKMultiMarkdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6AFB8B164112BA49AFCF3EF03E8CAE8A /* itmz-reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "itmz-reader.h"; sourceTree = "<group>"; };
+		6BABEE877D9DCF16799056C4454B3ED8 /* html.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = html.h; sourceTree = "<group>"; };
 		6F4F144D3F556B2D006A12E4C6B17FD9 /* Pods-WKMultiMarkdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKMultiMarkdown_Example-umbrella.h"; sourceTree = "<group>"; };
 		72E62AF60D7CD7A4BF2B590325E44C7B /* Pods-WKMultiMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKMultiMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7380F74F02E3ED289DF1EE3203895A23 /* itmz-reader.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "itmz-reader.c"; sourceTree = "<group>"; };
+		78882F979A2B9A1733AA7A012A67BE9C /* object_pool.c */ = {isa = PBXFileReference; includeInIndex = 1; path = object_pool.c; sourceTree = "<group>"; };
 		7A5A1020BD6205DE4F1DEA5687714541 /* Pods-WKMultiMarkdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKMultiMarkdown_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A8E8B4197878CAD8A6C06A7265CA095 /* itmz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = itmz.h; sourceTree = "<group>"; };
+		7C95AC89D8CCC0F91DE40A769593E3A5 /* token_pairs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = token_pairs.h; sourceTree = "<group>"; };
 		7E84503F9D1FC5B5CE8A6EEAF74B262F /* Pods-WKMultiMarkdown_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKMultiMarkdown_Example-dummy.m"; sourceTree = "<group>"; };
 		82555C2DC9BE6802A0A93971B6CD1A94 /* Pods-WKMultiMarkdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKMultiMarkdown_Tests-umbrella.h"; sourceTree = "<group>"; };
-		90615B26CA1DC9F91155B671D482EEA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		844BB4385DD00697132E083CBB25E758 /* miniz.c */ = {isa = PBXFileReference; includeInIndex = 1; path = miniz.c; sourceTree = "<group>"; };
+		87709EBA7304D3B4D4FE676C81732FB1 /* opendocument-content.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "opendocument-content.c"; sourceTree = "<group>"; };
+		8A22895F06881FFA6E5505FB5787AF44 /* mmd.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mmd.c; sourceTree = "<group>"; };
+		8BA37EFB650E5B9E0791E719C475DDFC /* beamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = beamer.h; sourceTree = "<group>"; };
+		8D52A12B2DADAF55BC37422AFCF3EDBD /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; path = scanners.c; sourceTree = "<group>"; };
+		90F00E76B8E13DC8BF8129B156DA53CE /* opml-parser.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "opml-parser.c"; sourceTree = "<group>"; };
+		93BB963889CC065966E0AA8413433597 /* itmz-parser.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "itmz-parser.c"; sourceTree = "<group>"; };
 		9A139DEDADD5215ED92C291DB4BABC61 /* WKMultiMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKMultiMarkdown.framework; path = WKMultiMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD944A89A8CDE7163BE978F9C3BF20E /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; path = zip.c; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E40DEEB2E2B06A021586C9BF40A3C7C /* Pods_WKMultiMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKMultiMarkdown_Example.framework; path = "Pods-WKMultiMarkdown_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8E71BB6F7B7DF1ED2247A8D7C77572 /* textbundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = textbundle.h; sourceTree = "<group>"; };
+		A0A6103E07E03E700F571AAB5FF90D5D /* WKMultiMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKMultiMarkdown-Info.plist"; sourceTree = "<group>"; };
+		A2247BC424D396391F0DCFD667CFDBA2 /* aho-corasick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "aho-corasick.h"; sourceTree = "<group>"; };
+		A47A2BD7B54FED454448C1EA97ABA339 /* xml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = xml.h; sourceTree = "<group>"; };
 		A8BE2CDE56A24FC955124D96B866A437 /* Pods-WKMultiMarkdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKMultiMarkdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC20CF1F24D1E16AE93824E310D48A8E /* opml-reader.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "opml-reader.c"; sourceTree = "<group>"; };
+		AD07A7FAA052ACB7E17FBF64C23B0118 /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scanners.h; sourceTree = "<group>"; };
+		AE6495DECC15D76FA7BA06F9A83A73F6 /* token.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = token.h; sourceTree = "<group>"; };
+		B0BEACDF81586351C2AA166E8F6E11B8 /* uuid.c */ = {isa = PBXFileReference; includeInIndex = 1; path = uuid.c; sourceTree = "<group>"; };
 		B3D37FD76B2A359E0544CA84D6206487 /* Pods-WKMultiMarkdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKMultiMarkdown_Tests-dummy.m"; sourceTree = "<group>"; };
+		B4A453F2CD74088CE70F728AD82C10C2 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		B8C50864C52255E747D09F5906463618 /* latex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = latex.h; sourceTree = "<group>"; };
+		BF11B9EF08A33E4A99BE81051CFA2E94 /* epub.c */ = {isa = PBXFileReference; includeInIndex = 1; path = epub.c; sourceTree = "<group>"; };
+		C0CBEF3639A367121FFD416E3E597B52 /* aho-corasick.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "aho-corasick.c"; sourceTree = "<group>"; };
+		C6671957D63694C81920DDAB006C0918 /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; path = latex.c; sourceTree = "<group>"; };
+		CE7DD70A73CFE3E0E8431A2CDCC28B15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CF0402F5269AEE1CF72B0CB245505BB1 /* i18n.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = i18n.h; sourceTree = "<group>"; };
 		CFB87BACB61A95967D78AA083FED6392 /* Pods-WKMultiMarkdown_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKMultiMarkdown_Example-Info.plist"; sourceTree = "<group>"; };
+		D397B9125634CBC7D67CBE5F3AA17012 /* opml-reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "opml-reader.h"; sourceTree = "<group>"; };
 		D474E920D62BE6ADD9638DB09B853FEA /* Pods-WKMultiMarkdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKMultiMarkdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC6E49E4C9D0AA81C74C3837374E7093 /* opml.c */ = {isa = PBXFileReference; includeInIndex = 1; path = opml.c; sourceTree = "<group>"; };
+		DFB15A6AB8E75BA9F740580929F62E28 /* opendocument.c */ = {isa = PBXFileReference; includeInIndex = 1; path = opendocument.c; sourceTree = "<group>"; };
+		E49E4210CF63BEF5A0A8BB562965CE08 /* mmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mmd.h; sourceTree = "<group>"; };
+		E4C783D0D9C67311491017397BF34C59 /* transclude.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = transclude.h; sourceTree = "<group>"; };
 		EB5FDDD333940B8D60E10E30B0DD174D /* Pods-WKMultiMarkdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKMultiMarkdown_Example.modulemap"; sourceTree = "<group>"; };
+		EC99C8A916B1E63E5C9C3A6448E369A9 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		EFBE6E3A43E1C94E5E18E04A7F812DC2 /* itmz-lexer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = "itmz-lexer.c"; sourceTree = "<group>"; };
+		F005231EFCFD066E8189833D4B769D41 /* lexer.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lexer.c; sourceTree = "<group>"; };
+		F0B3E15475BFE8A97A1FBF3C802B3292 /* char.c */ = {isa = PBXFileReference; includeInIndex = 1; path = char.c; sourceTree = "<group>"; };
+		F552BF864070DCF8AD0E139D93EA4461 /* WKMultiMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKMultiMarkdown.xcconfig; sourceTree = "<group>"; };
 		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -99,12 +247,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		029D27880E2F043B707CEC3251D1C16A /* Development Pods */ = {
+		0E59C2E9B98871CC2C7D69961906560A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				49A64E1F13C57385C4B90BF427043F28 /* WKMultiMarkdown */,
+				3AD0B6D877B03EEDB3183B219A00FCC8 /* LICENSE */,
+				CE7DD70A73CFE3E0E8431A2CDCC28B15 /* README.md */,
+				433614358A0A5983ED39940278D0D11D /* WKMultiMarkdown.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		24006A02F18F51C402E474A7A216655A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25070DF5E4A99948C76B24733E01AE8C /* WKMultiMarkdown.modulemap */,
+				F552BF864070DCF8AD0E139D93EA4461 /* WKMultiMarkdown.xcconfig */,
+				4CFB212254B0BF750B81BB52E87ED3A2 /* WKMultiMarkdown-dummy.m */,
+				A0A6103E07E03E700F571AAB5FF90D5D /* WKMultiMarkdown-Info.plist */,
+				1D40BAE3ED2C178243FB560538863785 /* WKMultiMarkdown-prefix.pch */,
+				047424D9BE7017F607F075081D1326F8 /* WKMultiMarkdown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WKMultiMarkdown";
 			sourceTree = "<group>";
 		};
 		2A94008068CAB7C8100074DC641BDDB4 /* Pods-WKMultiMarkdown_Tests */ = {
@@ -123,39 +287,92 @@
 			path = "Target Support Files/Pods-WKMultiMarkdown_Tests";
 			sourceTree = "<group>";
 		};
-		49A64E1F13C57385C4B90BF427043F28 /* WKMultiMarkdown */ = {
+		597A2180E9ADEDE4676C27780C71B6BD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2EFB87AC0BDA9CE124D6FA527D7EE595 /* ReplaceMe.swift */,
-				779FD13629FE00EC5208AFB72BAC760D /* Pod */,
-				9B1D8799E33CBDB51FA9D2E8750FB472 /* Support Files */,
+				ED4AC4CACEA63A6DF168FE2E68B550D8 /* WKMultiMarkdown */,
 			);
-			name = WKMultiMarkdown;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		779FD13629FE00EC5208AFB72BAC760D /* Pod */ = {
+		9808FC28C6B1A73B9197A00659E043E3 /* mmd6 */ = {
 			isa = PBXGroup;
 			children = (
-				2126FE40857B82BFD26FDFBD199F2FEB /* LICENSE */,
-				90615B26CA1DC9F91155B671D482EEA0 /* README.md */,
-				507F92461D496215E9387ACF03FC782E /* WKMultiMarkdown.podspec */,
+				C0CBEF3639A367121FFD416E3E597B52 /* aho-corasick.c */,
+				A2247BC424D396391F0DCFD667CFDBA2 /* aho-corasick.h */,
+				1EFD081E6B41F185DE05A078BE884CBF /* beamer.c */,
+				8BA37EFB650E5B9E0791E719C475DDFC /* beamer.h */,
+				F0B3E15475BFE8A97A1FBF3C802B3292 /* char.c */,
+				1B2756A73F7F6B3F9766EED209D10528 /* char.h */,
+				38928C4A026C8A011431ACD7BD6F5884 /* critic_markup.c */,
+				0E04DA9B391DC15BEA9760D491487637 /* critic_markup.h */,
+				543402A49F0115027DED4431899ED45B /* d_string.c */,
+				BF11B9EF08A33E4A99BE81051CFA2E94 /* epub.c */,
+				5EBB7E015821F757FD870A65AA975ACC /* epub.h */,
+				4C2FEE74C2F0F7379F7944C80826F7DA /* file.c */,
+				2A4DD1D79625D45B32156C80F877E851 /* file.h */,
+				4D518C97251736FE2C6B675EFDD2ACC0 /* html.c */,
+				6BABEE877D9DCF16799056C4454B3ED8 /* html.h */,
+				CF0402F5269AEE1CF72B0CB245505BB1 /* i18n.h */,
+				614DF5D0706D93DB93384B945054E02A /* itmz.c */,
+				7A8E8B4197878CAD8A6C06A7265CA095 /* itmz.h */,
+				EFBE6E3A43E1C94E5E18E04A7F812DC2 /* itmz-lexer.c */,
+				08E069BF615C61DD3F9A216AF6370D23 /* itmz-lexer.h */,
+				93BB963889CC065966E0AA8413433597 /* itmz-parser.c */,
+				3AEEDD8BDE918575B65706A6B4C53B83 /* itmz-parser.h */,
+				7380F74F02E3ED289DF1EE3203895A23 /* itmz-reader.c */,
+				6AFB8B164112BA49AFCF3EF03E8CAE8A /* itmz-reader.h */,
+				C6671957D63694C81920DDAB006C0918 /* latex.c */,
+				B8C50864C52255E747D09F5906463618 /* latex.h */,
+				F005231EFCFD066E8189833D4B769D41 /* lexer.c */,
+				46C0343A53D16F0C820B0E64F5829F5F /* lexer.h */,
+				33A12FAFEF1BD22A7AE5371C77BF7260 /* memoir.c */,
+				2CCE8392AD35B7EA1588353B139324BA /* memoir.h */,
+				844BB4385DD00697132E083CBB25E758 /* miniz.c */,
+				496D237E1D516D1D62C7E9E35ECE37A6 /* miniz.h */,
+				8A22895F06881FFA6E5505FB5787AF44 /* mmd.c */,
+				E49E4210CF63BEF5A0A8BB562965CE08 /* mmd.h */,
+				78882F979A2B9A1733AA7A012A67BE9C /* object_pool.c */,
+				26D808C95A61109266D3E9878A9F85CE /* object_pool.h */,
+				DFB15A6AB8E75BA9F740580929F62E28 /* opendocument.c */,
+				53CF96F21BA682A4FBE4BB67F9D6C59B /* opendocument.h */,
+				87709EBA7304D3B4D4FE676C81732FB1 /* opendocument-content.c */,
+				2E68A76562C985FB8717C4521ABF39D4 /* opendocument-content.h */,
+				DC6E49E4C9D0AA81C74C3837374E7093 /* opml.c */,
+				293D7BE85CBA03C03DD8557D4C8FA00E /* opml.h */,
+				211EA76A31B60C3EE2955A3EC370B6DA /* opml-lexer.c */,
+				5073518B4E731DFB14015B64A1F6036D /* opml-lexer.h */,
+				90F00E76B8E13DC8BF8129B156DA53CE /* opml-parser.c */,
+				55D8FCFD63E3335CF71DCD584441687F /* opml-parser.h */,
+				AC20CF1F24D1E16AE93824E310D48A8E /* opml-reader.c */,
+				D397B9125634CBC7D67CBE5F3AA17012 /* opml-reader.h */,
+				3AD2026008D1B37F36DFC75C5225D245 /* parser.c */,
+				05FFF4A192DBEBA87CBF12907BB5F3E9 /* parser.h */,
+				5847AAA4DDAF8F3A6D23E44450883EF4 /* rng.c */,
+				8D52A12B2DADAF55BC37422AFCF3EDBD /* scanners.c */,
+				AD07A7FAA052ACB7E17FBF64C23B0118 /* scanners.h */,
+				276B502A1E7132BE75753805082E25E8 /* stack.c */,
+				5304EC32A693081806420B0E2EDBD7AD /* stack.h */,
+				352DF64F1D0A508E8FC8859BACB09102 /* textbundle.c */,
+				9E8E71BB6F7B7DF1ED2247A8D7C77572 /* textbundle.h */,
+				3D35F3C5987051CCCEEEDBDDE9FB8178 /* token.c */,
+				370C0405C420660149D3F7D53C118561 /* token_pairs.c */,
+				7C95AC89D8CCC0F91DE40A769593E3A5 /* token_pairs.h */,
+				6345589EFB2B4ECE74509C134FDD16DE /* transclude.c */,
+				E4C783D0D9C67311491017397BF34C59 /* transclude.h */,
+				1F5D2CB63AEDCF7C69C5FC9558F96B4B /* uthash.h */,
+				B0BEACDF81586351C2AA166E8F6E11B8 /* uuid.c */,
+				38F7F37B5D80E357120BA98BBB885D70 /* uuid.h */,
+				EC99C8A916B1E63E5C9C3A6448E369A9 /* version.h */,
+				1BAAC26007FE8A08AC4F73FEEB9F0063 /* writer.c */,
+				1E975E23F11BE39A04E8095F74AC595D /* writer.h */,
+				283F3EBAC53F71E41ACD586CC4654C05 /* xml.c */,
+				A47A2BD7B54FED454448C1EA97ABA339 /* xml.h */,
+				9CD944A89A8CDE7163BE978F9C3BF20E /* zip.c */,
+				B4A453F2CD74088CE70F728AD82C10C2 /* zip.h */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9B1D8799E33CBDB51FA9D2E8750FB472 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A31E4699907FC0662E842B8A2754FE1 /* WKMultiMarkdown.modulemap */,
-				07398CEFE6CC23243357DE75F9943B91 /* WKMultiMarkdown.xcconfig */,
-				0E58C0C10572602BB1B7857902536320 /* WKMultiMarkdown-dummy.m */,
-				3A569AF97176D531E2C5B3B4D2BD5FFE /* WKMultiMarkdown-Info.plist */,
-				47D447D9A597F90C567F0B40A2ED0FCF /* WKMultiMarkdown-prefix.pch */,
-				64659B12F839A8592AEA24D713DC903B /* WKMultiMarkdown-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WKMultiMarkdown";
+			name = mmd6;
+			path = WKMultiMarkdown/mmd6;
 			sourceTree = "<group>";
 		};
 		9BDF99D06E7B7A2C6691C963E9C81893 /* Products */ = {
@@ -206,7 +423,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				029D27880E2F043B707CEC3251D1C16A /* Development Pods */,
+				597A2180E9ADEDE4676C27780C71B6BD /* Development Pods */,
 				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
 				9BDF99D06E7B7A2C6691C963E9C81893 /* Products */,
 				C45244A801588FA6EB0C0F0071EB5FE4 /* Targets Support Files */,
@@ -221,14 +438,76 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ED4AC4CACEA63A6DF168FE2E68B550D8 /* WKMultiMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				9808FC28C6B1A73B9197A00659E043E3 /* mmd6 */,
+				0E59C2E9B98871CC2C7D69961906560A /* Pod */,
+				F78B3CDF09368992E0A3F261676BF62C /* public */,
+				24006A02F18F51C402E474A7A216655A /* Support Files */,
+			);
+			name = WKMultiMarkdown;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F78B3CDF09368992E0A3F261676BF62C /* public */ = {
+			isa = PBXGroup;
+			children = (
+				2C72BA68C0066A9D4ABC7CB972952621 /* d_string.h */,
+				AE6495DECC15D76FA7BA06F9A83A73F6 /* token.h */,
+				2CC38698D319877E5512ED9AEDAB59F2 /* WKMultiMarkdown.h */,
+			);
+			name = public;
+			path = WKMultiMarkdown/public;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		087922FBBB48E0968E065C5AF7074441 /* Headers */ = {
+		803CA7C481D90198400E50E8D82419B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDFDDA9F38D0F9BD59185F81139403B /* WKMultiMarkdown-umbrella.h in Headers */,
+				AA93EC8971C17A027536A2D9AAA3924E /* aho-corasick.h in Headers */,
+				3E827405CF4736A8D037192C6A6A43BC /* beamer.h in Headers */,
+				56FA2DC8341A69DD0BFCD9E4C16BBA52 /* char.h in Headers */,
+				E8A73039C8FADFB1130EDADC27490FB9 /* critic_markup.h in Headers */,
+				385C0F073A5E304009CA4884F767D655 /* d_string.h in Headers */,
+				C4F885C680A3138BE00FEA8940021956 /* epub.h in Headers */,
+				4EC1D315486DAC8AF47096DD2CBA14CB /* file.h in Headers */,
+				BE32829A0FB0FE20C3CB307771162804 /* html.h in Headers */,
+				5724651BB6CA6FD6FF26A96EE9650A84 /* i18n.h in Headers */,
+				EE5248402719DD72A94B14EB8DF97B9F /* itmz-lexer.h in Headers */,
+				2CC2047C2F04C6D667EA3051840E5716 /* itmz-parser.h in Headers */,
+				C72DD360AE147C873F4785095B97BCB9 /* itmz-reader.h in Headers */,
+				89EB382F45A10CEAA9DE676278CFB019 /* itmz.h in Headers */,
+				EEE354DEA2702BF9A8FA606FA9721C84 /* latex.h in Headers */,
+				DD86D6A4A3ECECEF29A01E32DB3CB2FA /* lexer.h in Headers */,
+				DDE4B442C9AECBC182AC782DBCB53B73 /* memoir.h in Headers */,
+				D1A1CE12F026DF36F96832E0B02FA242 /* miniz.h in Headers */,
+				8BC9A33C54A99EE3BD05509AA85072C7 /* mmd.h in Headers */,
+				579FC3FEB434530B638C5191B6475013 /* object_pool.h in Headers */,
+				C3FBD46AAE66CF213306D186684686B8 /* opendocument-content.h in Headers */,
+				26D787CBD2E9BA73265CF4B8BD4407C0 /* opendocument.h in Headers */,
+				A2D61C3FBAAC98F670BFD6ABC0CE8C10 /* opml-lexer.h in Headers */,
+				A96A9085E5C553501CA76817EC2F30C5 /* opml-parser.h in Headers */,
+				633DCC8110F5CAC2A90BCFF2D1CB8462 /* opml-reader.h in Headers */,
+				56D6B1109E6D9E62E009C69D79574682 /* opml.h in Headers */,
+				9DB501FE29EA5E2D95B2A7711E244F60 /* parser.h in Headers */,
+				C75C5D189A499E87664A3045F607F079 /* scanners.h in Headers */,
+				547CB07095BB5950E6E4C916AD6A5A2F /* stack.h in Headers */,
+				69F8F7874C5774D50CE70AF0B08BFF6D /* textbundle.h in Headers */,
+				B43E195FA038734685F969FABB33513B /* token.h in Headers */,
+				B643F751AE860F6B0613A1AE0EA3A995 /* token_pairs.h in Headers */,
+				8B8D781E49D0268C4153EDADA6B4D4A2 /* transclude.h in Headers */,
+				4DD30CB56A9ED9427261CAFAD6992846 /* uthash.h in Headers */,
+				E3AC694AA0BF9FB4BEF015F4D5088BA0 /* uuid.h in Headers */,
+				368DDFA214C87274919FB16852DCE154 /* version.h in Headers */,
+				3A31951C5FA83B569BC62562299E0028 /* WKMultiMarkdown-umbrella.h in Headers */,
+				862822FA115F07FA7F85C4F232A5A595 /* WKMultiMarkdown.h in Headers */,
+				609872536C5B63AAB0DAD2823EB58391 /* writer.h in Headers */,
+				3522ED25E6EE55E16AE0B3F34A3DDA0A /* xml.h in Headers */,
+				F3BEA2B667CD869702E17C8E07B8862B /* zip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +553,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80526A7C1ECDCDE86DD4684BEA5C5D17 /* Build configuration list for PBXNativeTarget "WKMultiMarkdown" */;
 			buildPhases = (
-				087922FBBB48E0968E065C5AF7074441 /* Headers */,
-				5704CF901F8DE602D173487BE5E7ABF0 /* Sources */,
+				803CA7C481D90198400E50E8D82419B5 /* Headers */,
+				EA46CF4A139EB4BCE923593EFF91FB2E /* Sources */,
 				62325129D667CAA9878A015306D4AB61 /* Frameworks */,
 				5AE3FC97C946AFE9611BA27AF9AC814B /* Resources */,
 			);
@@ -360,15 +639,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5704CF901F8DE602D173487BE5E7ABF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEBCAEE06D4E4596032F5121E89C7C82 /* ReplaceMe.swift in Sources */,
-				F1B32A446C80FF190CE8D4122BEB7503 /* WKMultiMarkdown-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AA7D1E905D723A16F1FF26EAD4303AC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +652,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D7AF1AA21280CB28996673585C2B605 /* Pods-WKMultiMarkdown_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA46CF4A139EB4BCE923593EFF91FB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C19F20C00EB015FECC615C4AFCFEFC /* aho-corasick.c in Sources */,
+				87535B3BEDFAFC2139DB980EDED79C3F /* beamer.c in Sources */,
+				0875D415716200D5785EC8697E60FF6A /* char.c in Sources */,
+				3EAA355D143CCC09B56A5B51CB93AACD /* critic_markup.c in Sources */,
+				00A6279993F3805C27BE980722FAA856 /* d_string.c in Sources */,
+				B8E995334536F0ACB1C57191BF1B69B0 /* epub.c in Sources */,
+				939F18D571ECDA2DFDE50B1A8381C405 /* file.c in Sources */,
+				38194DCD626E016310D9C55E032C8A8F /* html.c in Sources */,
+				75C315483A69B69FD072BAA8F6A27F42 /* itmz-lexer.c in Sources */,
+				35FF08B68908BFB3614108F51417EBD3 /* itmz-parser.c in Sources */,
+				B39629B71D4417EC7A8F0E913D7DDCA3 /* itmz-reader.c in Sources */,
+				2C69EB08BF34FF9CDCACC2E02F2C838D /* itmz.c in Sources */,
+				AB76164C803B1BCD674D8C73204D5B33 /* latex.c in Sources */,
+				D43A6871084072B6B4FD8244422002C0 /* lexer.c in Sources */,
+				55BF5DF569ED768B9849C3229CA2B163 /* memoir.c in Sources */,
+				2CD874D19CEE8DB94259D55FB9018D44 /* miniz.c in Sources */,
+				0B559EF43C35ADDDC33A610BE39179E0 /* mmd.c in Sources */,
+				03C629D2BE2F50122C7667AEED9BB740 /* object_pool.c in Sources */,
+				E91D5AD3A9AE68C370EE3DA66C2861AB /* opendocument-content.c in Sources */,
+				7A816215956AE7AF974F4DA7625279D2 /* opendocument.c in Sources */,
+				F5A1B1F630D3C30A58EF4AD168F78575 /* opml-lexer.c in Sources */,
+				8B0E085A71F0B28F59E5786A93EB2F06 /* opml-parser.c in Sources */,
+				2A51E208433FF1ECF099061098B64335 /* opml-reader.c in Sources */,
+				74D3A07F3E32EF31A7C3F3C7E09183A1 /* opml.c in Sources */,
+				212005633D4D381DE71E5EC5D25CB8C3 /* parser.c in Sources */,
+				CBE97734714650E23C739739BF19200D /* rng.c in Sources */,
+				29645FDAEF6B32311C6EF47D62179B78 /* scanners.c in Sources */,
+				DD8717296B711D767BEA3E78389C63C4 /* stack.c in Sources */,
+				160F7870EDCD834F87E110DFAB65A979 /* textbundle.c in Sources */,
+				E4BF3ECDB6D3DD7F856F05D1DBD0A130 /* token.c in Sources */,
+				2C1F301C77099B740494455ADBEF8C1D /* token_pairs.c in Sources */,
+				397FC35A2E2712931C6B7BA610E65867 /* transclude.c in Sources */,
+				A5763FC25B05678C4C7C03321D8FE0D9 /* uuid.c in Sources */,
+				83A2BDB5A6BA7EA971A2AF8FB9758203 /* WKMultiMarkdown-dummy.m in Sources */,
+				F3890CDCCF8B0384735C263B3844C60B /* writer.c in Sources */,
+				248B371DBCDF48CFC1C4C8817CDD3D87 /* xml.c in Sources */,
+				494C4082F6B3BAAA80ED46790FECB592 /* zip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +755,7 @@
 		};
 		66FAF6E625114DEA73010C41598A3B5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07398CEFE6CC23243357DE75F9943B91 /* WKMultiMarkdown.xcconfig */;
+			baseConfigurationReference = F552BF864070DCF8AD0E139D93EA4461 /* WKMultiMarkdown.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -475,7 +789,7 @@
 		};
 		7C988752BFB5E6989EAF498BDB364B41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07398CEFE6CC23243357DE75F9943B91 /* WKMultiMarkdown.xcconfig */;
+			baseConfigurationReference = F552BF864070DCF8AD0E139D93EA4461 /* WKMultiMarkdown.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

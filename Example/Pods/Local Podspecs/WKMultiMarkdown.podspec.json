@@ -1,9 +1,9 @@
 {
   "name": "WKMultiMarkdown",
   "version": "0.1.0",
-  "summary": "A short description of WKMultiMarkdown.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wangkaird@gmail.com/WKMultiMarkdown",
+  "summary": "封装 MultiMarkdown-6",
+  "description": "这是一个 MultiMarkdown-6 framework 的封装。",
+  "homepage": "https://github.com/wangkaird/WKMultiMarkdown",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
     "wangkaird@gmail.com": "wangkaird@gmail.com"
   },
   "source": {
-    "git": "https://github.com/wangkaird@gmail.com/WKMultiMarkdown.git",
+    "git": "https://github.com/wangkaird/WKMultiMarkdown.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "osx": "10.10"
   },
-  "source_files": "WKMultiMarkdown/Classes/**/*"
+  "source_files": "WKMultiMarkdown/**/*",
+  "public_header_files": "WKMultiMarkdown/public/*.h",
+  "xcconfig": {
+    "OTHER_CFLAGS": "-fbracket-depth=512"
+  }
 }
